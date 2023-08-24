@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="com.souceDemo.TestClasses.TC003_VerifyAddTocartFunctionality">
+        <methods>
+          <include name="verifyAddToCartFunctionality"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.souceDemo.TestClasses.TC003_VerifyAddTocartFunctionality -->
+      <class name="com.souceDemo.TestClasses.TC007_VerifyAllItemsCheckoutFunctionality">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="verifyCheckOutFunctionality"/>
+        </methods>
+      </class> <!-- com.souceDemo.TestClasses.TC007_VerifyAllItemsCheckoutFunctionality -->
+      <class name="com.souceDemo.TestClasses.TC005_VerifyDropDownFunctionality">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyAtoZDropDownFunctionality"/>
+          <include name="setUp"/>
+          <include name="verifyLowToHighFunctionality"/>
+          <include name="verifyHighToLowFunctionality"/>
+          <include name="verifyZtoADropDownFunctionality"/>
+        </methods>
+      </class> <!-- com.souceDemo.TestClasses.TC005_VerifyDropDownFunctionality -->
+      <class name="com.souceDemo.TestClasses.TC006_VerifyRemoveFromCartFunctionality">
+        <methods>
+          <include name="verifyRemoveFromCartFunctionality"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.souceDemo.TestClasses.TC006_VerifyRemoveFromCartFunctionality -->
+      <class name="com.souceDemo.TestClasses.TC008_VerifyRemoveFromHomeCartFunctionality">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyRemoveFunctionality"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.souceDemo.TestClasses.TC008_VerifyRemoveFromHomeCartFunctionality -->
+      <class name="com.souceDemo.TestClasses.TC001_VerifyLoginFunctionality">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="verifyLoginFunctionality"/>
+        </methods>
+      </class> <!-- com.souceDemo.TestClasses.TC001_VerifyLoginFunctionality -->
+      <class name="com.souceDemo.TestClasses.TC004_VerifySocialMediaLinks">
+        <methods>
+          <include name="verifyFaceBookLink"/>
+          <include name="verifyLinkedInLink"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="verifyTweeterLink"/>
+        </methods>
+      </class> <!-- com.souceDemo.TestClasses.TC004_VerifySocialMediaLinks -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
